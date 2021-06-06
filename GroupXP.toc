@@ -1,0 +1,11 @@
+## Interface: 20501
+## Title: Group XP - TBC Fix
+## Author: Clamchowder, Kekshaus
+## Notes: See your parties XP, and request people with the addons xp with !xp command
+## Version: 2.6.2
+## SavedVariables: GROUPXPDATA
+libs/ChatThrottleLib.lua
+main.lua
+options.lua
+bars.lua
+pulls.lua
