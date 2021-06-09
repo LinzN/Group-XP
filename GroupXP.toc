@@ -2,7 +2,7 @@
 ## Title: Group XP
 ## Author: Clamchowder, Kekshaus
 ## Notes: See your parties XP, and request people with the addons xp with !xp command
-## Version: 2.6.2.0
+## Version: 2.6.2.1
 ## SavedVariables: GROUPXPDATA
 libs/ChatThrottleLib.lua
 main.lua

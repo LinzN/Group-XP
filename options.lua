@@ -13,7 +13,7 @@ function dxpBuildOptions(dxpW, dxpH, dxpS, dxpV, dxpL, dxpM, dxpP, dxpA, dxpAMsg
 	dxpOptions_Header = dxpOptions:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
 	dxpOptions_Header:SetPoint("TOP", dxpOptions, "TOP",0, -20)
 
-	dxpOptions_Header:SetText("Group XP v2.6.2.0")
+	dxpOptions_Header:SetText("Group XP v2.6.2.1")
 
 
 	local dxpOptionsMenu = CreateFrame("Frame", nil, dxpOptions, BackdropTemplateMixin and "BackdropTemplate")

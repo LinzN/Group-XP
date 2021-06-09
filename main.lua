@@ -70,6 +70,9 @@ function dxpProcessChat( msg, typeM,...)
 		SendChatMessage(outmsg, "PARTY")
 	elseif (msg == "!roll") then
 		RandomRoll(1,100)
+	elseif (msg == "!gold") then
+		local coinText = "My balance:  " .. GetCoinText(GetMoney(), " ")
+		SendChatMessage(coinText, "PARTY")
 	end
 end
 
